@@ -8,3 +8,4 @@ if(int(userNumber) == CPUNumber):
     print("You've guessed correctly!")
 elif(int(userNumber) != CPUNumber):
     print("You've guessed incorrectly!")
+input("Press enter to quit...")
