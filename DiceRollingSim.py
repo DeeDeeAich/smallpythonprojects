@@ -1,4 +1,3 @@
-'''
 import random
 import time
 
@@ -12,16 +11,4 @@ if(userInput == "Yes" or userInput == "yes" or userInput == "YEs" or userInput =
     print("Result is: ",random.randint(1,6))
 else:
     print("Okay, come back anytime!")
-'''
-
-import random
-import time
-
-userAnswer = input("Would you like to roll the dice?")
-
-if(userAnswer == "yes"):
-    print("Grabbing dice...")
-    time.sleep(1.25)
-    print("You got a " + str(random.randint(1,6)))
-else:
-    print("Ok. Come back anytime!")
+input("Press enter to quit...")
