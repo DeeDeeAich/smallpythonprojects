@@ -3,7 +3,7 @@ import time
 
 userInput = input("Roll Dice? ")
 
-if(userInput == "Yes" or userInput == "yes" or userInput == "YEs" or userInput == "YES" or userInput == "yEs" or userInput == "yES"):
+if(userInput.lower() == "yes"):
     print("Grabbing dice...")
     time.sleep(2)
     print("Rolling Dice...")
